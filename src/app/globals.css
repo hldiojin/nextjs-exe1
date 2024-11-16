@@ -29,3 +29,15 @@ body {
 main {
   flex: 1;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 16px;
+  text-align: center;
+}
